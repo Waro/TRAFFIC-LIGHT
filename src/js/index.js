@@ -2,13 +2,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-
 import "../styles/index.css";
 
 
-import trafficlight from "./component/trafficlight.js";
+import {Trafficlight} from "./component/trafficlight.js";
 
 ReactDOM.render(
-<trafficlight/>, 
+<Trafficlight/>, 
 document.querySelector("#app"),
 );
